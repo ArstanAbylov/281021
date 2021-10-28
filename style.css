@@ -1,4 +1,8 @@
-article {
+main {
     display: flex;
-    width: 250px;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-basis: 250px;
 }
